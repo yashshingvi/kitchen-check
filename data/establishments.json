@@ -1,0 +1,628 @@
+{
+  "city": "Bengaluru",
+  "establishments": [
+    {
+      "id": "kc-001",
+      "slug": "mtr-lalbagh",
+      "name": "MTR — Lalbagh Road",
+      "type": "restaurant",
+      "cuisine": "South Indian",
+      "area": "Lalbagh",
+      "address": "14, Lalbagh Road, Bengaluru 560027",
+      "lat": 12.9523,
+      "lng": 77.5848,
+      "license_id": "10012022000123",
+      "years_operation": 96,
+      "seating_capacity": 80,
+      "inspections": [
+        {
+          "date": "2024-09-15",
+          "inspector": "FSSAI-BLR-04",
+          "items": {
+            "df_layout": "C", "df_lighting": "C", "df_ventilation": "C",
+            "df_water": "C", "df_drainage": "C", "df_pestproofing": "C",
+            "co_temp_cold": "C", "co_temp_hot": "C", "co_cross_contam": "C",
+            "co_packaging": "C", "co_haccp": "C", "co_traceability": "PC",
+            "ms_cleaning_schedule": "C", "ms_waste": "C", "ms_pest_control": "C",
+            "ms_equipment": "C", "ms_chemicals": "C",
+            "ph_handwash": "C", "ph_clothing": "C", "ph_medical": "C",
+            "ph_illness": "C", "ph_jewellery": "C",
+            "tc_training_log": "C", "tc_fostac": "C", "tc_complaint_log": "C",
+            "tc_recall": "C"
+          }
+        },
+        {
+          "date": "2025-04-20",
+          "inspector": "FSSAI-BLR-04",
+          "items": {
+            "df_layout": "C", "df_lighting": "C", "df_ventilation": "C",
+            "df_water": "C", "df_drainage": "C", "df_pestproofing": "C",
+            "co_temp_cold": "C", "co_temp_hot": "C", "co_cross_contam": "C",
+            "co_packaging": "C", "co_haccp": "C", "co_traceability": "C",
+            "ms_cleaning_schedule": "C", "ms_waste": "C", "ms_pest_control": "C",
+            "ms_equipment": "C", "ms_chemicals": "C",
+            "ph_handwash": "C", "ph_clothing": "C", "ph_medical": "C",
+            "ph_illness": "C", "ph_jewellery": "C",
+            "tc_training_log": "C", "tc_fostac": "C", "tc_complaint_log": "C",
+            "tc_recall": "C"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kc-002",
+      "slug": "third-wave-coffee-indiranagar",
+      "name": "Third Wave Coffee — Indiranagar",
+      "type": "qsr",
+      "cuisine": "Café",
+      "area": "Indiranagar",
+      "address": "12th Main, HAL 2nd Stage, Bengaluru 560038",
+      "lat": 12.9719,
+      "lng": 77.6412,
+      "license_id": "10012023001877",
+      "years_operation": 4,
+      "seating_capacity": 24,
+      "inspections": [
+        {
+          "date": "2025-11-02",
+          "inspector": "FSSAI-BLR-11",
+          "items": {
+            "df_layout": "C", "df_lighting": "C", "df_ventilation": "C",
+            "df_water": "C", "df_drainage": "C", "df_pestproofing": "C",
+            "co_temp_cold": "C", "co_temp_hot": "C", "co_cross_contam": "C",
+            "co_packaging": "C", "co_haccp": "PC", "co_traceability": "C",
+            "ms_cleaning_schedule": "C", "ms_waste": "C", "ms_pest_control": "C",
+            "ms_equipment": "C", "ms_chemicals": "C",
+            "ph_handwash": "C", "ph_clothing": "C", "ph_medical": "PC",
+            "ph_illness": "C", "ph_jewellery": "C",
+            "tc_training_log": "C", "tc_fostac": "C", "tc_complaint_log": "C",
+            "tc_recall": "PC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kc-003",
+      "slug": "behrouz-biryani-koramangala",
+      "name": "Behrouz Biryani — Koramangala (Cloud)",
+      "type": "cloud_kitchen",
+      "cuisine": "Mughlai / Biryani",
+      "area": "Koramangala",
+      "address": "5th Block, Koramangala, Bengaluru 560095",
+      "lat": 12.9352,
+      "lng": 77.6245,
+      "license_id": "10012024002901",
+      "years_operation": 2,
+      "seating_capacity": 0,
+      "inspections": [
+        {
+          "date": "2025-08-12",
+          "inspector": "FSSAI-BLR-22",
+          "items": {
+            "df_layout": "C", "df_lighting": "C", "df_ventilation": "PC",
+            "df_water": "C", "df_drainage": "PC", "df_pestproofing": "C",
+            "co_temp_cold": "C", "co_temp_hot": "C", "co_cross_contam": "PC",
+            "co_packaging": "C", "co_haccp": "PC", "co_traceability": "PC",
+            "ms_cleaning_schedule": "C", "ms_waste": "PC", "ms_pest_control": "C",
+            "ms_equipment": "PC", "ms_chemicals": "C",
+            "ph_handwash": "C", "ph_clothing": "PC", "ph_medical": "C",
+            "ph_illness": "C", "ph_jewellery": "PC",
+            "tc_training_log": "PC", "tc_fostac": "C", "tc_complaint_log": "PC",
+            "tc_recall": "NC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kc-004",
+      "slug": "freshmenu-hsr",
+      "name": "FreshMenu — HSR Layout",
+      "type": "cloud_kitchen",
+      "cuisine": "Continental / Bowls",
+      "area": "HSR Layout",
+      "address": "Sector 1, HSR Layout, Bengaluru 560102",
+      "lat": 12.9081,
+      "lng": 77.6476,
+      "license_id": "10012021004123",
+      "years_operation": 8,
+      "seating_capacity": 0,
+      "inspections": [
+        {
+          "date": "2024-12-08",
+          "inspector": "FSSAI-BLR-22",
+          "items": {
+            "df_layout": "C", "df_lighting": "C", "df_ventilation": "C",
+            "df_water": "C", "df_drainage": "C", "df_pestproofing": "C",
+            "co_temp_cold": "C", "co_temp_hot": "C", "co_cross_contam": "C",
+            "co_packaging": "C", "co_haccp": "C", "co_traceability": "C",
+            "ms_cleaning_schedule": "C", "ms_waste": "C", "ms_pest_control": "C",
+            "ms_equipment": "C", "ms_chemicals": "C",
+            "ph_handwash": "C", "ph_clothing": "C", "ph_medical": "C",
+            "ph_illness": "C", "ph_jewellery": "C",
+            "tc_training_log": "C", "tc_fostac": "C", "tc_complaint_log": "C",
+            "tc_recall": "C"
+          }
+        },
+        {
+          "date": "2025-10-20",
+          "inspector": "FSSAI-BLR-22",
+          "items": {
+            "df_layout": "C", "df_lighting": "C", "df_ventilation": "C",
+            "df_water": "C", "df_drainage": "C", "df_pestproofing": "C",
+            "co_temp_cold": "C", "co_temp_hot": "C", "co_cross_contam": "C",
+            "co_packaging": "C", "co_haccp": "C", "co_traceability": "C",
+            "ms_cleaning_schedule": "C", "ms_waste": "C", "ms_pest_control": "C",
+            "ms_equipment": "C", "ms_chemicals": "C",
+            "ph_handwash": "C", "ph_clothing": "C", "ph_medical": "C",
+            "ph_illness": "C", "ph_jewellery": "PC",
+            "tc_training_log": "C", "tc_fostac": "C", "tc_complaint_log": "C",
+            "tc_recall": "C"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kc-005",
+      "slug": "nandhini-jayanagar",
+      "name": "Nandhini — Jayanagar",
+      "type": "restaurant",
+      "cuisine": "Andhra",
+      "area": "Jayanagar",
+      "address": "4th Block, Jayanagar, Bengaluru 560011",
+      "lat": 12.9255,
+      "lng": 77.5839,
+      "license_id": "10012019003222",
+      "years_operation": 22,
+      "seating_capacity": 120,
+      "inspections": [
+        {
+          "date": "2024-06-04",
+          "inspector": "FSSAI-BLR-07",
+          "items": {
+            "df_layout": "PC", "df_lighting": "C", "df_ventilation": "PC",
+            "df_water": "C", "df_drainage": "PC", "df_pestproofing": "PC",
+            "co_temp_cold": "C", "co_temp_hot": "C", "co_cross_contam": "PC",
+            "co_packaging": "C", "co_haccp": "NC", "co_traceability": "NC",
+            "ms_cleaning_schedule": "PC", "ms_waste": "PC", "ms_pest_control": "PC",
+            "ms_equipment": "PC", "ms_chemicals": "C",
+            "ph_handwash": "PC", "ph_clothing": "PC", "ph_medical": "NC",
+            "ph_illness": "C", "ph_jewellery": "PC",
+            "tc_training_log": "NC", "tc_fostac": "PC", "tc_complaint_log": "NC",
+            "tc_recall": "NC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kc-006",
+      "slug": "shivaji-military-frazer",
+      "name": "Shivaji Military Hotel — Frazer Town",
+      "type": "restaurant",
+      "cuisine": "Military / Donne Biryani",
+      "area": "Frazer Town",
+      "address": "Mosque Road, Frazer Town, Bengaluru 560005",
+      "lat": 13.0011,
+      "lng": 77.6093,
+      "license_id": "10012020002456",
+      "years_operation": 18,
+      "seating_capacity": 40,
+      "inspections": [
+        {
+          "date": "2025-09-10",
+          "inspector": "FSSAI-BLR-09",
+          "items": {
+            "df_layout": "PC", "df_lighting": "C", "df_ventilation": "PC",
+            "df_water": "C", "df_drainage": "NC", "df_pestproofing": "NC",
+            "co_temp_cold": "PC", "co_temp_hot": "C", "co_cross_contam": "NC",
+            "co_packaging": "C", "co_haccp": "NC", "co_traceability": "NC",
+            "ms_cleaning_schedule": "NC", "ms_waste": "NC", "ms_pest_control": "PC",
+            "ms_equipment": "PC", "ms_chemicals": "C",
+            "ph_handwash": "PC", "ph_clothing": "PC", "ph_medical": "PC",
+            "ph_illness": "PC", "ph_jewellery": "NC",
+            "tc_training_log": "NC", "tc_fostac": "NC", "tc_complaint_log": "PC",
+            "tc_recall": "NC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kc-007",
+      "slug": "boxnpox-whitefield",
+      "name": "Box-n-Pox — Whitefield (Cloud)",
+      "type": "cloud_kitchen",
+      "cuisine": "Pan-Asian",
+      "area": "Whitefield",
+      "address": "ITPL Main Road, Whitefield, Bengaluru 560066",
+      "lat": 12.9698,
+      "lng": 77.7499,
+      "license_id": "10012025005014",
+      "years_operation": 1,
+      "seating_capacity": 0,
+      "inspections": [
+        {
+          "date": "2026-01-15",
+          "inspector": "FSSAI-BLR-22",
+          "items": {
+            "df_layout": "PC", "df_lighting": "C", "df_ventilation": "C",
+            "df_water": "C", "df_drainage": "PC", "df_pestproofing": "PC",
+            "co_temp_cold": "C", "co_temp_hot": "C", "co_cross_contam": "C",
+            "co_packaging": "C", "co_haccp": "PC", "co_traceability": "PC",
+            "ms_cleaning_schedule": "PC", "ms_waste": "C", "ms_pest_control": "C",
+            "ms_equipment": "C", "ms_chemicals": "C",
+            "ph_handwash": "C", "ph_clothing": "C", "ph_medical": "PC",
+            "ph_illness": "C", "ph_jewellery": "C",
+            "tc_training_log": "PC", "tc_fostac": "PC", "tc_complaint_log": "PC",
+            "tc_recall": "PC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kc-008",
+      "slug": "vidyarthi-bhavan",
+      "name": "Vidyarthi Bhavan — Gandhi Bazaar",
+      "type": "restaurant",
+      "cuisine": "South Indian",
+      "area": "Basavanagudi",
+      "address": "Gandhi Bazaar, Basavanagudi, Bengaluru 560004",
+      "lat": 12.9421,
+      "lng": 77.5719,
+      "license_id": "10012018001112",
+      "years_operation": 82,
+      "seating_capacity": 60,
+      "inspections": [
+        {
+          "date": "2025-03-22",
+          "inspector": "FSSAI-BLR-07",
+          "items": {
+            "df_layout": "C", "df_lighting": "C", "df_ventilation": "PC",
+            "df_water": "C", "df_drainage": "C", "df_pestproofing": "C",
+            "co_temp_cold": "C", "co_temp_hot": "C", "co_cross_contam": "C",
+            "co_packaging": "C", "co_haccp": "C", "co_traceability": "PC",
+            "ms_cleaning_schedule": "C", "ms_waste": "C", "ms_pest_control": "C",
+            "ms_equipment": "PC", "ms_chemicals": "C",
+            "ph_handwash": "C", "ph_clothing": "C", "ph_medical": "C",
+            "ph_illness": "C", "ph_jewellery": "C",
+            "tc_training_log": "C", "tc_fostac": "C", "tc_complaint_log": "C",
+            "tc_recall": "PC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kc-009",
+      "slug": "faasos-marathahalli",
+      "name": "Faasos — Marathahalli (Cloud)",
+      "type": "cloud_kitchen",
+      "cuisine": "Wraps & Rolls",
+      "area": "Marathahalli",
+      "address": "Outer Ring Road, Marathahalli, Bengaluru 560037",
+      "lat": 12.9591,
+      "lng": 77.6974,
+      "license_id": "10012022003345",
+      "years_operation": 5,
+      "seating_capacity": 0,
+      "inspections": [
+        {
+          "date": "2024-02-10",
+          "inspector": "FSSAI-BLR-22",
+          "items": {
+            "df_layout": "C", "df_lighting": "C", "df_ventilation": "C",
+            "df_water": "C", "df_drainage": "C", "df_pestproofing": "C",
+            "co_temp_cold": "C", "co_temp_hot": "C", "co_cross_contam": "C",
+            "co_packaging": "C", "co_haccp": "C", "co_traceability": "C",
+            "ms_cleaning_schedule": "C", "ms_waste": "C", "ms_pest_control": "C",
+            "ms_equipment": "C", "ms_chemicals": "C",
+            "ph_handwash": "C", "ph_clothing": "C", "ph_medical": "C",
+            "ph_illness": "C", "ph_jewellery": "C",
+            "tc_training_log": "C", "tc_fostac": "C", "tc_complaint_log": "C",
+            "tc_recall": "C"
+          }
+        },
+        {
+          "date": "2024-11-18",
+          "inspector": "FSSAI-BLR-22",
+          "items": {
+            "df_layout": "C", "df_lighting": "C", "df_ventilation": "PC",
+            "df_water": "C", "df_drainage": "PC", "df_pestproofing": "C",
+            "co_temp_cold": "C", "co_temp_hot": "C", "co_cross_contam": "PC",
+            "co_packaging": "C", "co_haccp": "PC", "co_traceability": "C",
+            "ms_cleaning_schedule": "C", "ms_waste": "PC", "ms_pest_control": "C",
+            "ms_equipment": "PC", "ms_chemicals": "C",
+            "ph_handwash": "C", "ph_clothing": "PC", "ph_medical": "C",
+            "ph_illness": "C", "ph_jewellery": "C",
+            "tc_training_log": "PC", "tc_fostac": "C", "tc_complaint_log": "PC",
+            "tc_recall": "PC"
+          }
+        },
+        {
+          "date": "2025-12-01",
+          "inspector": "FSSAI-BLR-22",
+          "items": {
+            "df_layout": "PC", "df_lighting": "C", "df_ventilation": "PC",
+            "df_water": "C", "df_drainage": "PC", "df_pestproofing": "PC",
+            "co_temp_cold": "PC", "co_temp_hot": "C", "co_cross_contam": "PC",
+            "co_packaging": "C", "co_haccp": "NC", "co_traceability": "PC",
+            "ms_cleaning_schedule": "PC", "ms_waste": "PC", "ms_pest_control": "PC",
+            "ms_equipment": "NC", "ms_chemicals": "C",
+            "ph_handwash": "PC", "ph_clothing": "PC", "ph_medical": "PC",
+            "ph_illness": "C", "ph_jewellery": "PC",
+            "tc_training_log": "PC", "tc_fostac": "C", "tc_complaint_log": "NC",
+            "tc_recall": "NC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kc-010",
+      "slug": "rameshwaram-cafe-brookefield",
+      "name": "Rameshwaram Café — Brookefield",
+      "type": "restaurant",
+      "cuisine": "South Indian",
+      "area": "Brookefield",
+      "address": "ITPL Main Road, Brookefield, Bengaluru 560037",
+      "lat": 12.9690,
+      "lng": 77.7173,
+      "license_id": "10012023004567",
+      "years_operation": 3,
+      "seating_capacity": 90,
+      "inspections": [
+        {
+          "date": "2025-06-28",
+          "inspector": "FSSAI-BLR-11",
+          "items": {
+            "df_layout": "C", "df_lighting": "C", "df_ventilation": "C",
+            "df_water": "C", "df_drainage": "C", "df_pestproofing": "C",
+            "co_temp_cold": "C", "co_temp_hot": "C", "co_cross_contam": "C",
+            "co_packaging": "C", "co_haccp": "C", "co_traceability": "PC",
+            "ms_cleaning_schedule": "C", "ms_waste": "C", "ms_pest_control": "C",
+            "ms_equipment": "C", "ms_chemicals": "C",
+            "ph_handwash": "C", "ph_clothing": "C", "ph_medical": "C",
+            "ph_illness": "C", "ph_jewellery": "PC",
+            "tc_training_log": "C", "tc_fostac": "C", "tc_complaint_log": "PC",
+            "tc_recall": "C"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kc-011",
+      "slug": "anand-sweets-malleshwaram",
+      "name": "Anand Sweets — Malleshwaram",
+      "type": "sweet_shop",
+      "cuisine": "Sweets & Mithai",
+      "area": "Malleshwaram",
+      "address": "Sampige Road, Malleshwaram, Bengaluru 560003",
+      "lat": 13.0030,
+      "lng": 77.5712,
+      "license_id": "10012019001998",
+      "years_operation": 36,
+      "seating_capacity": 0,
+      "inspections": [
+        {
+          "date": "2025-07-15",
+          "inspector": "FSSAI-BLR-07",
+          "items": {
+            "df_layout": "C", "df_lighting": "C", "df_ventilation": "C",
+            "df_water": "C", "df_drainage": "C", "df_pestproofing": "C",
+            "co_temp_cold": "C", "co_temp_hot": "C", "co_cross_contam": "C",
+            "co_packaging": "C", "co_haccp": "C", "co_traceability": "C",
+            "ms_cleaning_schedule": "C", "ms_waste": "C", "ms_pest_control": "C",
+            "ms_equipment": "C", "ms_chemicals": "C",
+            "ph_handwash": "C", "ph_clothing": "C", "ph_medical": "C",
+            "ph_illness": "C", "ph_jewellery": "C",
+            "tc_training_log": "C", "tc_fostac": "C", "tc_complaint_log": "C",
+            "tc_recall": "PC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kc-012",
+      "slug": "biryani-blues-electronic-city",
+      "name": "Biryani Blues — Electronic City",
+      "type": "cloud_kitchen",
+      "cuisine": "Hyderabadi Biryani",
+      "area": "Electronic City",
+      "address": "Phase 1, Electronic City, Bengaluru 560100",
+      "lat": 12.8438,
+      "lng": 77.6608,
+      "license_id": "10012024004991",
+      "years_operation": 2,
+      "seating_capacity": 0,
+      "inspections": [
+        {
+          "date": "2025-05-05",
+          "inspector": "FSSAI-BLR-22",
+          "items": {
+            "df_layout": "PC", "df_lighting": "C", "df_ventilation": "PC",
+            "df_water": "C", "df_drainage": "PC", "df_pestproofing": "PC",
+            "co_temp_cold": "NC", "co_temp_hot": "C", "co_cross_contam": "PC",
+            "co_packaging": "C", "co_haccp": "NC", "co_traceability": "NC",
+            "ms_cleaning_schedule": "PC", "ms_waste": "PC", "ms_pest_control": "PC",
+            "ms_equipment": "PC", "ms_chemicals": "C",
+            "ph_handwash": "PC", "ph_clothing": "PC", "ph_medical": "NC",
+            "ph_illness": "PC", "ph_jewellery": "PC",
+            "tc_training_log": "NC", "tc_fostac": "PC", "tc_complaint_log": "NC",
+            "tc_recall": "NC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kc-013",
+      "slug": "blue-tokai-koramangala",
+      "name": "Blue Tokai — Koramangala",
+      "type": "qsr",
+      "cuisine": "Café",
+      "area": "Koramangala",
+      "address": "80 Feet Road, Koramangala, Bengaluru 560034",
+      "lat": 12.9347,
+      "lng": 77.6171,
+      "license_id": "10012022002187",
+      "years_operation": 5,
+      "seating_capacity": 32,
+      "inspections": [
+        {
+          "date": "2025-08-28",
+          "inspector": "FSSAI-BLR-11",
+          "items": {
+            "df_layout": "C", "df_lighting": "C", "df_ventilation": "C",
+            "df_water": "C", "df_drainage": "C", "df_pestproofing": "C",
+            "co_temp_cold": "C", "co_temp_hot": "C", "co_cross_contam": "C",
+            "co_packaging": "C", "co_haccp": "C", "co_traceability": "C",
+            "ms_cleaning_schedule": "C", "ms_waste": "C", "ms_pest_control": "C",
+            "ms_equipment": "C", "ms_chemicals": "C",
+            "ph_handwash": "C", "ph_clothing": "C", "ph_medical": "C",
+            "ph_illness": "C", "ph_jewellery": "C",
+            "tc_training_log": "C", "tc_fostac": "C", "tc_complaint_log": "C",
+            "tc_recall": "C"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kc-014",
+      "slug": "punjabi-rasoi-banashankari",
+      "name": "Punjabi Rasoi — Banashankari",
+      "type": "restaurant",
+      "cuisine": "Punjabi / North Indian",
+      "area": "Banashankari",
+      "address": "Kanakapura Road, Banashankari, Bengaluru 560070",
+      "lat": 12.9248,
+      "lng": 77.5460,
+      "license_id": "10012021003478",
+      "years_operation": 9,
+      "seating_capacity": 50,
+      "inspections": [
+        {
+          "date": "2024-10-12",
+          "inspector": "FSSAI-BLR-07",
+          "items": {
+            "df_layout": "C", "df_lighting": "C", "df_ventilation": "PC",
+            "df_water": "C", "df_drainage": "PC", "df_pestproofing": "C",
+            "co_temp_cold": "PC", "co_temp_hot": "C", "co_cross_contam": "PC",
+            "co_packaging": "C", "co_haccp": "PC", "co_traceability": "PC",
+            "ms_cleaning_schedule": "PC", "ms_waste": "C", "ms_pest_control": "C",
+            "ms_equipment": "PC", "ms_chemicals": "C",
+            "ph_handwash": "C", "ph_clothing": "PC", "ph_medical": "C",
+            "ph_illness": "C", "ph_jewellery": "PC",
+            "tc_training_log": "PC", "tc_fostac": "C", "tc_complaint_log": "C",
+            "tc_recall": "PC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kc-015",
+      "slug": "wow-momo-jpnagar",
+      "name": "Wow! Momo — JP Nagar",
+      "type": "qsr",
+      "cuisine": "Chinese / Momos",
+      "area": "JP Nagar",
+      "address": "24th Main, JP Nagar, Bengaluru 560078",
+      "lat": 12.9078,
+      "lng": 77.5851,
+      "license_id": "10012023003812",
+      "years_operation": 3,
+      "seating_capacity": 18,
+      "inspections": [
+        {
+          "date": "2025-10-30",
+          "inspector": "FSSAI-BLR-09",
+          "items": {
+            "df_layout": "C", "df_lighting": "C", "df_ventilation": "C",
+            "df_water": "C", "df_drainage": "C", "df_pestproofing": "C",
+            "co_temp_cold": "C", "co_temp_hot": "C", "co_cross_contam": "C",
+            "co_packaging": "C", "co_haccp": "C", "co_traceability": "C",
+            "ms_cleaning_schedule": "C", "ms_waste": "C", "ms_pest_control": "C",
+            "ms_equipment": "C", "ms_chemicals": "C",
+            "ph_handwash": "C", "ph_clothing": "C", "ph_medical": "C",
+            "ph_illness": "C", "ph_jewellery": "PC",
+            "tc_training_log": "C", "tc_fostac": "C", "tc_complaint_log": "PC",
+            "tc_recall": "C"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kc-016",
+      "slug": "empire-restaurant-residency",
+      "name": "Empire Restaurant — Residency Road",
+      "type": "restaurant",
+      "cuisine": "Mughlai / Kebabs",
+      "area": "Residency Road",
+      "address": "Residency Road, Bengaluru 560025",
+      "lat": 12.9667,
+      "lng": 77.6044,
+      "license_id": "10012020001876",
+      "years_operation": 28,
+      "seating_capacity": 110,
+      "inspections": [
+        {
+          "date": "2025-02-18",
+          "inspector": "FSSAI-BLR-04",
+          "items": {
+            "df_layout": "C", "df_lighting": "C", "df_ventilation": "PC",
+            "df_water": "C", "df_drainage": "C", "df_pestproofing": "C",
+            "co_temp_cold": "C", "co_temp_hot": "C", "co_cross_contam": "C",
+            "co_packaging": "C", "co_haccp": "PC", "co_traceability": "C",
+            "ms_cleaning_schedule": "C", "ms_waste": "C", "ms_pest_control": "C",
+            "ms_equipment": "C", "ms_chemicals": "C",
+            "ph_handwash": "C", "ph_clothing": "C", "ph_medical": "C",
+            "ph_illness": "C", "ph_jewellery": "C",
+            "tc_training_log": "C", "tc_fostac": "C", "tc_complaint_log": "PC",
+            "tc_recall": "C"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kc-017",
+      "slug": "kream-and-krunch-ulsoor",
+      "name": "Kream & Krunch — Ulsoor",
+      "type": "sweet_shop",
+      "cuisine": "Bakery & Desserts",
+      "area": "Ulsoor",
+      "address": "Ulsoor Road, Bengaluru 560008",
+      "lat": 12.9787,
+      "lng": 77.6234,
+      "license_id": "10012022004099",
+      "years_operation": 6,
+      "seating_capacity": 12,
+      "inspections": [
+        {
+          "date": "2025-09-25",
+          "inspector": "FSSAI-BLR-09",
+          "items": {
+            "df_layout": "C", "df_lighting": "C", "df_ventilation": "C",
+            "df_water": "C", "df_drainage": "C", "df_pestproofing": "C",
+            "co_temp_cold": "C", "co_temp_hot": "NA", "co_cross_contam": "C",
+            "co_packaging": "C", "co_haccp": "PC", "co_traceability": "C",
+            "ms_cleaning_schedule": "C", "ms_waste": "C", "ms_pest_control": "C",
+            "ms_equipment": "C", "ms_chemicals": "C",
+            "ph_handwash": "C", "ph_clothing": "C", "ph_medical": "PC",
+            "ph_illness": "C", "ph_jewellery": "C",
+            "tc_training_log": "C", "tc_fostac": "PC", "tc_complaint_log": "C",
+            "tc_recall": "PC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kc-018",
+      "slug": "spice-route-yelahanka",
+      "name": "Spice Route — Yelahanka (New)",
+      "type": "cloud_kitchen",
+      "cuisine": "Kerala / Mallu",
+      "area": "Yelahanka",
+      "address": "Yelahanka New Town, Bengaluru 560064",
+      "lat": 13.1007,
+      "lng": 77.5963,
+      "license_id": "10012026005550",
+      "years_operation": 0,
+      "seating_capacity": 0,
+      "inspections": []
+    }
+  ]
+}

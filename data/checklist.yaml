@@ -1,0 +1,103 @@
+# FSSAI Schedule 4 checklist — POC subset.
+# Standard items: 2 marks. Critical (asterisked) items: 4 marks.
+# Any NC on a critical item forces overall Non-Compliance (band = "NC")
+# regardless of percentage score.
+
+sections:
+  - id: design_facilities
+    title: Design & Facilities
+    items:
+      - id: df_layout
+        label: Premises layout prevents cross-contamination
+        critical: false
+      - id: df_lighting
+        label: Adequate lighting in food handling areas
+        critical: false
+      - id: df_ventilation
+        label: Ventilation prevents condensation and odour buildup
+        critical: false
+      - id: df_water
+        label: Potable water source available and tested
+        critical: true
+      - id: df_drainage
+        label: Drainage flows away from food prep, no stagnation
+        critical: false
+      - id: df_pestproofing
+        label: Premises pest-proofed (screens, sealed entries)
+        critical: false
+
+  - id: control_operation
+    title: Control of Operation
+    items:
+      - id: co_temp_cold
+        label: Cold storage maintained at or below 5°C
+        critical: true
+      - id: co_temp_hot
+        label: Hot holding maintained at or above 60°C
+        critical: true
+      - id: co_cross_contam
+        label: Raw and cooked foods physically separated
+        critical: true
+      - id: co_packaging
+        label: Food-grade packaging materials in use
+        critical: true
+      - id: co_haccp
+        label: HACCP plan documented and followed
+        critical: false
+      - id: co_traceability
+        label: Supplier and batch traceability records maintained
+        critical: false
+
+  - id: maintenance_sanitation
+    title: Maintenance & Sanitation
+    items:
+      - id: ms_cleaning_schedule
+        label: Documented cleaning schedule visible and signed
+        critical: false
+      - id: ms_waste
+        label: Waste segregated and removed daily
+        critical: false
+      - id: ms_pest_control
+        label: Pest control contract active, logs current
+        critical: false
+      - id: ms_equipment
+        label: Equipment maintained, food-contact surfaces intact
+        critical: false
+      - id: ms_chemicals
+        label: Cleaning chemicals stored away from food
+        critical: true
+
+  - id: personal_hygiene
+    title: Personal Hygiene
+    items:
+      - id: ph_handwash
+        label: Handwashing stations stocked and accessible
+        critical: false
+      - id: ph_clothing
+        label: Staff in clean protective clothing, hair covered
+        critical: false
+      - id: ph_medical
+        label: Annual medical fitness certificates on file
+        critical: false
+      - id: ph_illness
+        label: Illness reporting procedure documented and known
+        critical: true
+      - id: ph_jewellery
+        label: No exposed jewellery / nail polish on food handlers
+        critical: false
+
+  - id: training_complaints
+    title: Training & Complaint Handling
+    items:
+      - id: tc_training_log
+        label: Staff food-safety training records up to date
+        critical: false
+      - id: tc_fostac
+        label: At least one FoSTaC-certified food safety supervisor
+        critical: false
+      - id: tc_complaint_log
+        label: Customer complaint log maintained
+        critical: false
+      - id: tc_recall
+        label: Product recall procedure documented
+        critical: false

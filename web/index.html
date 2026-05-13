@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KitchenCheck — Bengaluru food safety</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">KC</div>
+      <div>
+        <div class="brand-name">KitchenCheck</div>
+        <div class="brand-sub">FSSAI-aligned food safety transparency · <span id="city">Bengaluru</span></div>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="/docs" target="_blank" rel="noopener">API docs</a>
+      <a href="/redoc" target="_blank" rel="noopener">ReDoc</a>
+    </nav>
+  </header>
+
+  <main id="app">
+    <section id="overview" class="overview">
+      <div class="stat-card">
+        <div class="stat-label">Establishments</div>
+        <div id="stat-total" class="stat-value">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Rated</div>
+        <div id="stat-rated" class="stat-value">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Mean KC score</div>
+        <div id="stat-mean" class="stat-value">—</div>
+      </div>
+      <div class="stat-card band-distribution" id="stat-bands"></div>
+    </section>
+
+    <section class="controls">
+      <input id="search" type="search" placeholder="Search name, cuisine, or area…" autocomplete="off" />
+      <select id="filter-type">
+        <option value="">All types</option>
+        <option value="restaurant">Restaurant</option>
+        <option value="cloud_kitchen">Cloud kitchen</option>
+        <option value="qsr">QSR / Café</option>
+        <option value="sweet_shop">Sweet shop / Bakery</option>
+      </select>
+      <select id="filter-band">
+        <option value="">All grades</option>
+        <option value="A+">A+ Exemplary</option>
+        <option value="A">A Satisfactory</option>
+        <option value="B">B Needs improvement</option>
+        <option value="C">C Significant risk</option>
+        <option value="NC">NC Non-compliant</option>
+        <option value="UNRATED">Unrated</option>
+      </select>
+      <select id="sort">
+        <option value="score_desc">Score (high → low)</option>
+        <option value="score_asc">Score (low → high)</option>
+        <option value="risk_desc">Risk (high → low)</option>
+        <option value="recent">Most recently inspected</option>
+      </select>
+    </section>
+
+    <section id="cards" class="cards"></section>
+
+    <section id="detail" class="detail hidden"></section>
+  </main>
+
+  <footer class="footer">
+    <span>POC · not a regulatory grade</span>
+    <span>Scoring aligned to FSSAI Schedule 4 Hygiene Rating Scheme</span>
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
