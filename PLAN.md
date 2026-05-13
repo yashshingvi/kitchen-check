@@ -22,7 +22,7 @@ KitchenCheck targets three users:
 - **Operators** (restaurants, cloud kitchens) — want to understand their score, what
   drives it, and how to improve.
 - **Regulators / aggregators** — want a prioritized list of where to inspect next,
-  Chicago-style. Aggregators (Swiggy / Zomato / Razorpay-onboarded merchants) can
+  Chicago-style. Aggregators (Swiggy / Zomato / delivery platforms) can
   bake the score into onboarding KYC and merchant trust pages.
 
 The POC scope is one city (recommend Bengaluru or Delhi NCR — Delhi food safety dept
@@ -72,7 +72,7 @@ FSSAI has separate checklists per sector. The POC will support these four to sta
 |---|---|---|
 | FSSAI HRS portal (`hygiene.fssai.gov.in`) | Officially rated establishments, star ratings | Scrape + manual seed (terms permitting); fall back to public registry |
 | FoSCoS public license registry | License ID, premises, category, status | Public lookup |
-| Aggregator partner feed (future) | Live order-time location, hours | Partner API (Swiggy / Zomato / Razorpay merchants) |
+| Aggregator partner feed (future) | Live order-time location, hours | Partner API (Swiggy / Zomato / delivery platforms) |
 | Operator self-upload | Self-audit checklist, photos, certs | Authenticated upload from operator portal |
 | Consumer reports | "I saw a roach", photo, comment | Public form, throttled, used as a soft signal only |
 | Chicago / NYC open inspection data | Labeled training data for the ML model | Public CSV / Socrata API |
@@ -227,7 +227,7 @@ still sees the compliance band; only the risk overlay disappears.
 | Model registry | **MLflow** | Versioning + simple promotion workflow |
 | Orchestration | **Prefect 3** | Python-native, fits POC scale without Airflow overhead |
 | Frontend | **Next.js 15** (App Router) + TypeScript | Server components for SEO of establishment pages |
-| UI | **Tailwind + shadcn/ui** | Speed; matches Razorpay's design idiom if reused |
+| UI | **Tailwind + shadcn/ui** | Speed; clean, modern design system |
 | Maps | **Mapbox GL JS** (or Leaflet + OSM as free fallback) | Heat overlays, custom markers |
 | Auth | **Clerk** for POC (swap to in-house JWT for prod) | Fastest path to operator + admin roles |
 | Container | **Docker** + docker-compose for local | One-command spin-up for the POC |
@@ -235,7 +235,7 @@ still sees the compliance band; only the risk overlay disappears.
 | Observability | **Sentry** + **OpenTelemetry** → Grafana Cloud | Errors + traces from day one |
 | CI | **GitHub Actions** | Lint (ruff), type-check (mypy / pyright), pytest, docker build |
 
-Razorpay-internal alternatives (if this POC graduates to a real product behind their
+Internal alternatives (if this POC graduates to a real product behind the
 merchant onboarding flow): swap Clerk for the internal IAM, deploy on the internal
 k8s, and use the existing merchant DB as the establishment source of truth.
 
@@ -280,7 +280,7 @@ k8s, and use the existing merchant DB as the establishment source of truth.
   cuisine and area.
 - Override audit log: any manual score adjustment is logged with reason + user.
 
-### 6.4 Embeddable badge (Razorpay-aligned angle)
+### 6.4 Embeddable badge (merchant integration angle)
 
 A signed image URL that any merchant can drop into their menu or order page:
 
@@ -291,7 +291,7 @@ A signed image URL that any merchant can drop into their menu or order page:
 ```
 
 The badge re-fetches on every page load so it always shows the current grade — no
-stale embeds. Natural integration point with Razorpay's merchant pages.
+stale embeds. Natural integration point with merchant pages.
 
 ---
 
@@ -365,7 +365,7 @@ Six weeks, two engineers (one full-stack, one ML), one designer part-time.
 
 1. City to pilot in — Bengaluru (better tech adoption among operators) vs Delhi NCR
    (live regulator activity giving fresher ground truth).
-2. Distribution channel — standalone domain, embed inside Razorpay merchant pages,
+2. Distribution channel — standalone domain, embed inside merchant pages,
    or partner with Swiggy / Zomato.
 3. Whether to pursue an MoU with the state FSSAI office before going public, or
    ship consumer-side first and engage regulators after traction.
